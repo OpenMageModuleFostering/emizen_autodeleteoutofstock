@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Emizen_Autodeleteoutofstock</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This module will auto remove product from cart if that is out of stock.</summary>
+    <description>If customer added some product in cart and in few time product gone out of stock than magento only show error message on cart and disable proceed to checkout button. By using this module out of stock product deleted automatically from cart and show message on cart with product name but proceed to checkout still enable so customer can make order.</description>
+    <notes>If customer added some product in cart and in few time product gone out of stock than magento only show error message on cart and disable proceed to checkout button. By using this module out of stock product deleted automatically from cart and show message on cart with product name but proceed to checkout still enable so customer can make order.</notes>
+    <authors><author><name>Emizen Tech Private Limited</name><user>emizen</user><email>info@emizentech.com</email></author></authors>
+    <date>2015-06-26</date>
+    <time>12:12:34</time>
+    <contents><target name="magelocal"><dir><dir name="Emizen"><dir name="Autodeleteoutofstock"><dir><dir name="Helper"><file name="Data.php" hash="df2d755e5eff5ab4a0fd729db6a0af68"/></dir><dir name="Model"><file name="Observer.php" hash="5e0f812cb57ea8f862a98cf0af1b39de"/></dir><dir name="etc"><file name="adminhtml.xml" hash="f2d852849b7447be4c9b5be3c4ee7b1e"/><file name="config.xml" hash="d21f72a19d817d45d0db47307771f028"/><file name="system.xml" hash="e9baee087e9b8ffffd1693372002f404"/></dir></dir><file name=".DS_Store" hash="b69317fdd8f3693c63d7238639cff67b"/></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Emizen_Autodeleteoutofstock.xml" hash="cfe8fed414aa2d1ada359c88304f5697"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
